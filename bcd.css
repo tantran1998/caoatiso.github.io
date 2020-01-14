@@ -1,0 +1,181 @@
+.header {
+	border: 1px solid white;
+	height: 55px;
+	width: 100%;
+	background-color: white;
+}
+
+.title1 {
+	display: inline-block;
+}
+
+.title1:hover .https {
+	color: #4caf50;
+}
+
+.title2 {
+	display: inline-block;
+	margin-left: 465px;
+	font-size: 20px;
+	letter-spacing: 3px;
+}
+
+.https {
+	text-decoration: none;
+	color: black;
+	font-size: 40px;
+}
+
+.com {
+	color: #4caf50;
+	font-size: 40px;
+}
+
+.icon-house, .icon-black, .icon-global, .icon-search {
+	width: 20px;
+	height: 20px;
+	padding: 15px 14px;
+	margin-top: -14px;
+}
+
+.ul {
+	display: block;
+	padding-inline-start: 0px;
+	border: 1px solid #5f5f5f;
+	background-color: #5f5f5f;
+	height: 48px;
+	position: -webkit-sticky; /* Safari */
+  	position: sticky;
+  	top: 0;
+}
+
+.li1,.li3,.li2,.li4 {
+	float: left;
+	list-style-type: none;
+	margin-top: 13px;
+}
+
+li.li1,.li3 {
+	float: right;
+}
+
+.a2, .a5 {
+	text-decoration: none;
+	font-size: 20px;
+	padding: 14px 13px;
+	color: white;
+}
+
+.a4 {
+	text-decoration: none;
+	font-size: 20px;
+	padding: 14px 13px;
+	color: white;
+	background-color: #4caf50;
+}
+
+.li1:hover .a2 {
+	background-color: black;
+}
+
+.li2:hover .a2 {
+	background-color: black;
+}
+
+.li2:hover .a4 {
+	background-color: black;
+}
+
+.a3:hover .icon-house, .a3:hover .icon-black, .a3:hover .icon-global, .a3:hover .icon-search {
+	background-color: black;
+}
+
+.link1 {
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding: 20px;
+}
+
+.link1:hover {
+	background-color: white;
+}
+
+.more1 {
+	display: none;
+	position: absolute;
+	background-color: #5f5f5f;
+	margin-top: 13px;
+}
+
+.li2 {
+	display: inline-block;
+	position: relative;
+}
+
+.li2:hover .more1 {
+	display: block;
+}
+
+
+
+
+.link2 {
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding: 20px;
+}
+
+.link2:hover {
+	background-color: white;
+}
+
+.more2 {
+	display: none;
+	position: absolute;
+	background-color: #5f5f5f;
+	margin-top: 13px;
+	right: 0px;
+}
+
+.li1 {
+	display: inline-block;
+	position: relative;
+}
+
+.li1:hover .more2 {
+	display: block;
+}
+
+
+
+.link3 {
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding: 20px;
+}
+
+.link3:hover {
+	background-color: white;
+}
+
+.more3 {
+	display: none;
+	position: absolute;
+	background-color: #5f5f5f;
+	margin-top: 13px;
+	right: 0px;
+}
+
+.li1 {
+	display: inline-block;
+	position: relative;
+}
+
+.li1:hover .more3 {
+	display: block;
+}
+
+
